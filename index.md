@@ -10,7 +10,7 @@ profile_picture:
 	<!-- <a href="https://photomics.ai/">Photomics, Inc.</a>  -->
 </p> 
 
-<p>My research is focused on the design of hardware, software, and algorithms for new types of data-driven microscopy. As a result, I work at the intersection of many fields, including optical physics, single-cell biology, immunology, software engineering, data science, computer vision, and information theory.
+<p>My research is focused on the design of hardware, software, and algorithms for new types of data-driven microscopy. As a result, I work at the intersection of many fields, including optical physics, machine learning, single-cell biology, immunology, software engineering, data science, computer vision, and information theory.
 
 
 <p>
