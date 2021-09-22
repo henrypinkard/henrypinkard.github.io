@@ -17,7 +17,7 @@ sections:
         video:
           src: /assets/img/work/explore_square.mp4
           alt: Magellan explore acq
-        description: Micro-Magellan is designed for imaging large samples that span multiple fields of view (e.g. 3D samples, whole slides, multi-well plates). It provides a graphical user interface for navigating around samples in X,Y, and Z and for defining and imaging arbitrarily shaped regions of interest. It is integrated with Pycro-manager, which enables hybrid GUI-code applications like manually controlling data acquisition through the while having custom Python code processing image data on-the-fly. <br /> (<a href="">documentation</a>) (<a href="">paper</a>) (<a href="">code</a>)
+        description: Micro-Magellan is designed for imaging large samples that span multiple fields of view (e.g. 3D samples, whole slides, multi-well plates). It provides a graphical user interface for navigating around samples in X,Y, and Z and for defining and imaging arbitrarily shaped regions of interest. It is integrated with Pycro-manager, which enables hybrid GUI-code applications like manually controlling data acquisition through the while having custom Python code processing image data on-the-fly. <br /> (<a href="https://micro-manager.org/MicroMagellan">documentation</a>) (<a href="https://doi.org/10.1038/nmeth.3991">paper</a>) (<a href="https://github.com/micro-manager/micro-manager/tree/master/plugins/Magellan">code</a>)
 
   - title: Data-driven adaptive microscopy
     link: ddam
