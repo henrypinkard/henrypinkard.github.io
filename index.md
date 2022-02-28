@@ -26,7 +26,7 @@ sections:
           src: /assets/img/work/mmcore.png
           alt: MMCore architecture
         description: Micro-Manager is open-source software for operation of automated microscopes. The Core module in Micro-Manager is a hardware device abstraction layer that enables the same code to operate many different hardware devices with no changes. Because of the great number of devices now supported by this software layer and the tantalizing potential to use this code under many more conditions, here we review the original software design and identify possible improvements to enable its future use under a wider variety of circumstances
-         (<a href="http://localhost:4000/assets/pdf/MMCoreDesign.pdf">paper</a>)
+         (<a href="/assets/pdf/MMCoreDesign.pdf">paper</a>)
 
   - title: Data-driven adaptive microscopy
     link: adaptivemicroscopy
