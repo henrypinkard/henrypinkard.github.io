@@ -17,9 +17,16 @@ sections:
 
       - title: Micro-Magellan
         video:
-          src: /assets/img/work/explore_square.mp4
+          src: ./assets/img/work/explore_square.mp4
           alt: Magellan explore acq
         description: Micro-Magellan is designed for imaging large samples that span multiple fields of view (e.g. 3D samples, whole slides, multi-well plates). It provides a graphical user interface for navigating around samples in X,Y, and Z and for defining and imaging arbitrarily shaped regions of interest. It is integrated with Pycro-manager, which enables hybrid GUI-code applications like manually controlling data acquisition through the while having custom Python code processing image data on-the-fly. <br /> (<a href="https://micro-manager.org/MicroMagellan">documentation</a>) (<a href="https://doi.org/10.1038/nmeth.3991">paper</a>) (<a href="https://github.com/micro-manager/micro-manager/tree/master/plugins/Magellan">code</a>)
+
+      - title: Micro-Manager Core
+        image:
+          src: /assets/img/work/mmcore.png
+          alt: MMCore architecture
+        description: Micro-Manager is open-source software for operation of automated microscopes. The Core module in Micro-Manager is a hardware device abstraction layer that enables the same code to operate many different hardware devices with no changes. Because of the great number of devices now supported by this software layer and the tantalizing potential to use this code under many more conditions, here we review the original software design and identify possible improvements to enable its future use under a wider variety of circumstances
+         (<a href="http://localhost:4000/assets/pdf/MMCoreDesign.pdf">paper</a>)
 
   - title: Data-driven adaptive microscopy
     link: adaptivemicroscopy
