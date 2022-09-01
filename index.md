@@ -56,7 +56,7 @@ sections:
 ---
 
 
-<p>I am a Ph.D. student in <a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a> at UC Berkeley, where I work in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> with Prof. Laura Waller in the <a href="https://eecs.berkeley.edu/">Department of Electrical Engineering and Computer Sciences.</a> I am also the founder of <a href="https://photomics.ai/">Photomics, Inc.</a> 
+<p>I am a part-time postdoctoral researcher at UC Berkeley in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> with Prof. Laura Waller in the <a href="https://eecs.berkeley.edu/">Department of Electrical Engineering and Computer Sciences</a>, where I received my PhD in <a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a> and MS in Electrical Engineering and Computer Sciences. In addition, I am also the founder of <a href="https://photomics.ai/">Photomics, Inc.</a>, where I create open-source software for microscope control and label-free, computational microscopes.
 </p> 
 
 <p>My research is focused on the design of hardware, software, and algorithms for new types of data-driven microscopes. As a result, I work at the intersection of many fields, including optical physics, machine learning, single-cell biology, immunology, software engineering, data science, computer vision, and information theory. More details can be found in the <a href="https://henrypinkard.github.io#research">research</a> section.
@@ -65,7 +65,7 @@ sections:
 Before coming to UC Berkeley, I spent 3 years at the UCSF <a href="https://bidc.ucsf.edu/">Biological Imaging Development Center</a> with Prof. Matthew Krummel, where I built and programmed microscopes and did research on the immune system. Before that, I worked in <a href="https://valelab.ucsf.edu/">Prof. Ron Vale's lab</a> at UCSF where I helped develop an open source software for microscope control called <a href="https://micro-manager.org/wiki/Micro-Manager_Open_Source_Microscopy_Software">Micro-Manager</a>, which I've continued working on in the decade since.</p> 
 
 
-<p>My graduate work has been funded by fellowships from the <a href="https://bids.berkeley.edu/">Berkeley Institute for Data Science</a>, the <a href="https://bakarinstitute.ucsf.edu/">UCSF Bakar Computational Health Sciences Institute</a>, and the <a href="https://www.nsf.gov/">NSF</a>. 
+<p>My graduate work was funded by fellowships from the <a href="https://bids.berkeley.edu/">Berkeley Institute for Data Science</a>, the <a href="https://bakarinstitute.ucsf.edu/">UCSF Bakar Computational Health Sciences Institute</a>, and the <a href="https://www.nsf.gov/">NSF</a>. 
 
 
 
