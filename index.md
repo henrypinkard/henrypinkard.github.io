@@ -6,30 +6,29 @@ profile_picture:
 research: <ul><li><a href="#adaptivemicroscopy">Data-driven adaptive microscopy</a></li><li><a href="#infotheory">Information theory of microscopy</a></li><li><a href="#software">Software for microscope control</a></li><li><a href="#singlecell">Single-cell computational microscopy</a></li></ul>  A full list of publications can be found on <a href="https://scholar.google.com/citations?user=-CpByXMAAAAJ&hl=en">Google Scholar</a>.
 
 sections:
-
   - title: Data-driven adaptive microscopy
-  link: adaptivemicroscopy
-  items:
-    - title: Learned adaptive multiphoton illumination Microscopy
-      video:
-        src: /assets/img/work/LN_pan_square.mp4
-        alt: Lymph_node_video
-      description: Multiphoton microscopy is a powerful technique for deep in vivo imaging in scattering samples. However, it requires precise, sample-dependent increases in excitation power with depth in order to maintain signal while minimizing photodamage. We show that cells with identical fluorescent labels imaged in situ can be used to train a physics-based machine learning model that solves this problem. After this training has been performed, the correct illumination power can be predicted and adaptively adjusted at each point in a 3D volume on subsequent samples as a function of the sample’s shape, without the need for specialized fluorescent labelling. We use this technique for in vivo imaging of immune responses in mouse lymph nodes following vaccination, with imaging volumes 2 orders of magnitude larger than previously reported. We achieve visualization of physiologically realistic numbers of antigen-specific T cells for the first time, and demonstrate changes in the global organization and motility of dendritic cell networks during the early stages of the immune response. <br /> (<a href="https://doi.org/10.1038/s41467-021-22246-5">paper</a>)  (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Learned_adaptive_multiphoton_illumination.html">tutorial</a>)  (<a href="https://doi.org/10.6084/m9.figshare.12841781">data</a>)
+    link: adaptivemicroscopy
+    items:
+      - title: Learned adaptive multiphoton illumination Microscopy
+        video:
+          src: /assets/img/work/LN_pan_square.mp4
+          alt: Lymph_node_video
+        description: Multiphoton microscopy is a powerful technique for deep in vivo imaging in scattering samples. However, it requires precise, sample-dependent increases in excitation power with depth in order to maintain signal while minimizing photodamage. We show that cells with identical fluorescent labels imaged in situ can be used to train a physics-based machine learning model that solves this problem. After this training has been performed, the correct illumination power can be predicted and adaptively adjusted at each point in a 3D volume on subsequent samples as a function of the sample’s shape, without the need for specialized fluorescent labelling. We use this technique for in vivo imaging of immune responses in mouse lymph nodes following vaccination, with imaging volumes 2 orders of magnitude larger than previously reported. We achieve visualization of physiologically realistic numbers of antigen-specific T cells for the first time, and demonstrate changes in the global organization and motility of dendritic cell networks during the early stages of the immune response. <br /> (<a href="https://doi.org/10.1038/s41467-021-22246-5">paper</a>)  (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Learned_adaptive_multiphoton_illumination.html">tutorial</a>)  (<a href="https://doi.org/10.6084/m9.figshare.12841781">data</a>)
 
-    - title: Deep Learning for single-shot autofocus microscopy
-      video:
-        src: /assets/img/work/focus.mp4
-        alt: coherent focus
-      description: Maintaining an in-focus image over long time scales is an essential and nontrivial task for a variety of microscopy applications. Here, we describe a fast, robust autofocusing method compatible with a wide range of existing microscopes. It requires only the addition of one or a few off-axis illumination sources (e.g., LEDs), and can predict the focus correction from a single image with this illumination. We designed a neural network architecture, the fully connected Fourier neural network (FCFNN), that exploits an understanding of the physics of the illumination to make accurate predictions with 2–3 orders of magnitude fewer learned parameters and less memory usage than existing state-of-the-art architectures, allowing it to be trained without any specialized hardware. This technique provides fast, inexpensive autofocus capabilities compatible with a variety of microscopes. <br /> (<a href="https://doi.org/10.1364/OPTICA.6.000794">paper</a>) (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Single_shot_autofocus_pycromanager.html">tutorial</a>) (<a href="https://github.com/henrypinkard/DeepAutofocus">code</a>)
+      - title: Deep Learning for single-shot autofocus microscopy
+        video:
+          src: /assets/img/work/focus.mp4
+          alt: coherent focus
+        description: Maintaining an in-focus image over long time scales is an essential and nontrivial task for a variety of microscopy applications. Here, we describe a fast, robust autofocusing method compatible with a wide range of existing microscopes. It requires only the addition of one or a few off-axis illumination sources (e.g., LEDs), and can predict the focus correction from a single image with this illumination. We designed a neural network architecture, the fully connected Fourier neural network (FCFNN), that exploits an understanding of the physics of the illumination to make accurate predictions with 2–3 orders of magnitude fewer learned parameters and less memory usage than existing state-of-the-art architectures, allowing it to be trained without any specialized hardware. This technique provides fast, inexpensive autofocus capabilities compatible with a variety of microscopes. <br /> (<a href="https://doi.org/10.1364/OPTICA.6.000794">paper</a>) (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Single_shot_autofocus_pycromanager.html">tutorial</a>) (<a href="https://github.com/henrypinkard/DeepAutofocus">code</a>)
 
   - title: Information theory of microscopy
-  link: infotheory
-  items:
-    - title: A visual introduction to information theory
-      image:
-        src: /assets/img/work/extended_noisy_channel.pdf
-        alt: Lymph_node_video
-      description: Though originally developed for communications engineering, information theory contains mathematical tools with numerous applications in science and engineering. These tools can be used to characterize the fundamental limits of data compression and transmission in the presence of noise. Here, we present a practical guide to key concepts in information theory, focusing on intuitions and providing visual explanations wherever possible. Our presentation assumes only a familiarity with basic probability theory.  <br /> (<a href="https://doi.org/10.48550/arXiv.2206.07867">paper</a>)  (<a href="https://doi.org/10.5281/zenodo.6647779">code+figures</a>)
+    link: infotheory
+    items:
+      - title: A visual introduction to information theory
+        image:
+          src: /assets/img/work/extended_noisy_channel.png
+          alt: Extended channel
+        description: The mathematical tools of information theory can be used to characterize the fundamental limits of data compression and accurate transmission of messages in the presence of noise. This paper presents a practical guide to key concepts in information theory, focusing on intuitions and providing visual explanations wherever possible. The only background required is familiarity with basic probability theory.  <br /> (<a href="https://doi.org/10.48550/arXiv.2206.07867">paper</a>)  (<a href="https://doi.org/10.5281/zenodo.6647779">code+figures</a>)
 
   - title: Software for microscope control
     link: software
