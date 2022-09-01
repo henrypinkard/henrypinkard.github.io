@@ -56,7 +56,7 @@ sections:
 ---
 
 
-<p>I am a part-time postdoctoral researcher at UC Berkeley in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> with Prof. Laura Waller in the <a href="https://eecs.berkeley.edu/">Department of Electrical Engineering and Computer Sciences</a>, where I received my PhD in <a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a> and MS in Electrical Engineering and Computer Sciences. In addition, I am also the founder of <a href="https://photomics.ai/">Photomics, Inc.</a>, where I create open-source software for microscope control and label-free, computational microscopes.
+<p>I am a part-time postdoctoral researcher at UC Berkeley in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> with Prof. Laura Waller in the <a href="https://eecs.berkeley.edu/">Department of Electrical Engineering and Computer Sciences</a>, where I received my PhD in <a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a> and MS in Electrical Engineering and Computer Sciences. I am also the founder of <a href="https://photomics.ai/">Photomics, Inc.</a>, where I create open-source software for microscope control and label-free, computational microscopes.
 </p> 
 
 <p>My research is focused on the design of hardware, software, and algorithms for new types of data-driven microscopes. As a result, I work at the intersection of many fields, including optical physics, machine learning, single-cell biology, immunology, software engineering, data science, computer vision, and information theory. More details can be found in the <a href="https://henrypinkard.github.io#research">research</a> section.
