@@ -10,8 +10,8 @@ sections:
     link: adaptivemicroscopy
     items:
       - title: Microscopes are coming for your job
-        video:
-          image: /assets/img/work/adaptive_dgm.png
+        image:
+          src: /assets/img/work/adaptive_dgm.png
           alt: adaptive_deep_generative_model_microscope
         description: Speculating about the future possibilities of microscopes controlled by machine learning algorithms. <br /> (<a href="https://rdcu.be/cVdty">paper</a>) 
 
