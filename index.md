@@ -9,13 +9,19 @@ sections:
   - title: Data-driven adaptive microscopy
     link: adaptivemicroscopy
     items:
-      - title: Learned adaptive multiphoton illumination Microscopy
+      - title: Microscopes are coming for your job
+        video:
+          image: /assets/img/work/adaptive_dgm.png
+          alt: adaptive_deep_generative_model_microscope
+        description: Speculating about the future possibilities of microscopes controlled by machine learning algorithms. <br /> (<a href="https://rdcu.be/cVdty">paper</a>) 
+
+      - title: Learned adaptive multiphoton illumination microscopy
         video:
           src: /assets/img/work/LN_pan_square.mp4
           alt: Lymph_node_video
         description: Multiphoton microscopy is a powerful technique for deep in vivo imaging in scattering samples. However, it requires precise, sample-dependent increases in excitation power with depth in order to maintain signal while minimizing photodamage. We show that cells with identical fluorescent labels imaged in situ can be used to train a physics-based machine learning model that solves this problem. After this training has been performed, the correct illumination power can be predicted and adaptively adjusted at each point in a 3D volume on subsequent samples as a function of the sample’s shape, without the need for specialized fluorescent labelling. We use this technique for in vivo imaging of immune responses in mouse lymph nodes following vaccination, with imaging volumes 2 orders of magnitude larger than previously reported. We achieve visualization of physiologically realistic numbers of antigen-specific T cells for the first time, and demonstrate changes in the global organization and motility of dendritic cell networks during the early stages of the immune response. <br /> (<a href="https://doi.org/10.1038/s41467-021-22246-5">paper</a>)  (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Learned_adaptive_multiphoton_illumination.html">tutorial</a>)  (<a href="https://doi.org/10.6084/m9.figshare.12841781">data</a>)
 
-      - title: Deep Learning for single-shot autofocus microscopy
+      - title: Deep learning for single-shot autofocus microscopy
         video:
           src: /assets/img/work/focus.mp4
           alt: coherent focus
