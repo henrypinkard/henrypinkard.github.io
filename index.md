@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/Hpinkard_square.jpg
+  src: /assets/img/HP_shot_large.jpg
   alt: website picture
 research: <ul><li><a href="#adaptivemicroscopy">Data-driven adaptive microscopy</a></li><li><a href="#infotheory">Information theory of microscopy</a></li><li><a href="#software">Software for microscope control</a></li><li><a href="#singlecell">Single-cell computational microscopy</a></li></ul>  A full list of publications can be found on <a href="https://scholar.google.com/citations?user=-CpByXMAAAAJ&hl=en">Google Scholar</a>.
 
