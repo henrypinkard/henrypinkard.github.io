@@ -3,9 +3,31 @@ layout: home
 profile_picture:
   src: /assets/img/HP_shot_large.jpg
   alt: website picture
-research: <ul><li><a href="#adaptivemicroscopy">Data-driven adaptive microscopy</a></li><li><a href="#infotheory">Information theory of microscopy</a></li><li><a href="#software">Software for microscope control</a></li><li><a href="#singlecell">Single-cell computational microscopy</a></li></ul>  A full list of publications can be found on <a href="https://scholar.google.com/citations?user=-CpByXMAAAAJ&hl=en">Google Scholar</a>.
+research: <ul><li><a href="#singlecell">Open data for computational microscopy</a></li><li><a href="#infotheory">Information theory and imaging</a></li><li><a href="#adaptivemicroscopy">Data-driven adaptive microscopy</a></li><li><a href="#software">Software for microscope control</a></li></ul>  A full list of publications can be found on <a href="https://scholar.google.com/citations?user=-CpByXMAAAAJ&hl=en">Google Scholar</a>.
 
 sections:
+
+  - title: Open data for computational microscopy 
+    link: singlecell
+    items:
+      - title: The Berkeley single-cell computational microscopy (BSCCM) dataset
+        video: 
+          src: /assets/img/work/bsccm_montage.mp4
+          alt: Cell montage
+        description: contains over 400,000 images of white blood cells with diverse illumination patterns on an LED array microscope, as well as fluorescent measurements of the abundance of surface proteins that mark different cell types. It is designed to serve as a resource for the development and testing of new algorithms in computational microscopy and computer vision with practical biomedical applications. (<a href="https://waller-lab.github.io/BSCCM/">website</a>)
+
+
+
+
+  - title: Information theory and imaging
+    link: infotheory
+    items:
+      - title: A visual introduction to information theory
+        image:
+          src: /assets/img/work/extended_noisy_channel.png
+          alt: Extended channel
+        description: The mathematical tools of information theory can be used to characterize the fundamental limits of data compression and accurate transmission of messages in the presence of noise. This paper presents a practical guide to key concepts in information theory, focusing on intuitions and providing visual explanations wherever possible. The only background required is familiarity with basic probability theory.  <br /> (<a href="https://doi.org/10.48550/arXiv.2206.07867">paper</a>)  (<a href="https://doi.org/10.5281/zenodo.6647779">code+figures</a>)
+
   - title: Data-driven adaptive microscopy
     link: adaptivemicroscopy
     items:
@@ -17,24 +39,19 @@ sections:
 
       - title: Learned adaptive multiphoton illumination microscopy
         video:
-          src: /assets/img/work/LN_pan_square.mp4
+          src: /assets/img/work/LN.mp4
           alt: Lymph_node_video
-        description: Multiphoton microscopy is a powerful technique for deep in vivo imaging in scattering samples. However, it requires precise, sample-dependent increases in excitation power with depth in order to maintain signal while minimizing photodamage. We show that cells with identical fluorescent labels imaged in situ can be used to train a physics-based machine learning model that solves this problem. After this training has been performed, the correct illumination power can be predicted and adaptively adjusted at each point in a 3D volume on subsequent samples as a function of the sample’s shape, without the need for specialized fluorescent labelling. We use this technique for in vivo imaging of immune responses in mouse lymph nodes following vaccination, with imaging volumes 2 orders of magnitude larger than previously reported. We achieve visualization of physiologically realistic numbers of antigen-specific T cells for the first time, and demonstrate changes in the global organization and motility of dendritic cell networks during the early stages of the immune response. <br /> (<a href="https://doi.org/10.1038/s41467-021-22246-5">paper</a>)  (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Learned_adaptive_multiphoton_illumination.html">tutorial</a>)  (<a href="https://doi.org/10.6084/m9.figshare.12841781">data</a>)
+        description: Multiphoton microscopes excel in imaging dynamic biological processes within living tissues. However, the high-powered lasers that generate fluorescent signals in this method also pose a risk of cellular damage. Striking a balance between sufficient signal and minimal harm is challenging due to varying optical properties across different sample areas. In this work, we show how to use a neural network to dynamically adjust laser power in real time, tailored to different regions of the sample. This approach enabled us to monitor immune cells over significantly larger areas than previously possible, yielding novel insights into the organization and movement of immune cells like T cells and dendritic cells during the initial phase of an immune response.
+
+
+         <br /> (<a href="https://doi.org/10.1038/s41467-021-22246-5">paper</a>)  (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Learned_adaptive_multiphoton_illumination.html">tutorial</a>)  (<a href="https://doi.org/10.6084/m9.figshare.12841781">data</a>)
 
       - title: Deep learning for single-shot autofocus microscopy
         video:
           src: /assets/img/work/focus.mp4
           alt: coherent focus
-        description: Maintaining an in-focus image over long time scales is an essential and nontrivial task for a variety of microscopy applications. Here, we describe a fast, robust autofocusing method compatible with a wide range of existing microscopes. It requires only the addition of one or a few off-axis illumination sources (e.g., LEDs), and can predict the focus correction from a single image with this illumination. We designed a neural network architecture, the fully connected Fourier neural network (FCFNN), that exploits an understanding of the physics of the illumination to make accurate predictions with 2–3 orders of magnitude fewer learned parameters and less memory usage than existing state-of-the-art architectures, allowing it to be trained without any specialized hardware. This technique provides fast, inexpensive autofocus capabilities compatible with a variety of microscopes. <br /> (<a href="https://doi.org/10.1364/OPTICA.6.000794">paper</a>) (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Single_shot_autofocus_pycromanager.html">tutorial</a>) (<a href="https://github.com/henrypinkard/DeepAutofocus">code</a>)
+        description: We introduce a fast and robust autofocusing method for microscopes, requiring only additional off-axis illumination sources like LEDs. Our technique utilizes a novel physics-based neural network architecture, the Fully Connected Fourier Neural Network (FCFNN), which efficiently predicts focus corrections from a single image and requires significantly fewer parameters and less memory than other types of neural networks. This approach offers an accessible and efficient solution for maintaining focus in microscopy applications. <br /> (<a href="https://doi.org/10.1364/OPTICA.6.000794">paper</a>) (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Single_shot_autofocus_pycromanager.html">tutorial</a>) (<a href="https://github.com/henrypinkard/DeepAutofocus">code</a>)
 
-  - title: Information theory of microscopy
-    link: infotheory
-    items:
-      - title: A visual introduction to information theory
-        image:
-          src: /assets/img/work/extended_noisy_channel.png
-          alt: Extended channel
-        description: The mathematical tools of information theory can be used to characterize the fundamental limits of data compression and accurate transmission of messages in the presence of noise. This paper presents a practical guide to key concepts in information theory, focusing on intuitions and providing visual explanations wherever possible. The only background required is familiarity with basic probability theory.  <br /> (<a href="https://doi.org/10.48550/arXiv.2206.07867">paper</a>)  (<a href="https://doi.org/10.5281/zenodo.6647779">code+figures</a>)
 
   - title: Software for microscope control
     link: software
@@ -57,24 +74,13 @@ sections:
           alt: MMCore architecture
         description: Micro-Manager is open-source software for operation of automated microscopes. The Core module in Micro-Manager is a hardware device abstraction layer that enables the same code to operate many different hardware devices with no changes. Because of the great number of devices now supported by this software layer and the tantalizing potential to use this code under many more conditions, here we review the original software design and identify possible improvements to enable its future use under a wider variety of circumstances
          (<a href="/assets/pdf/MMCoreDesign.pdf">paper</a>)
-
-
-  - title: Single-cell computational microscopy (Coming soon...)
-    link: singlecell
-    items:
-      - title: Berkeley single-cell computational microscopy (BSCCM) dataset
-        image: 
-          src: /assets/img/work/cell_montage.png
-          alt: Cell montage
-        description: A deep learning-sized dataset of single white blood cells under a variety of illumination conditions. Coming soon...
-    
 ---
 
 
 <p>I am a part-time postdoctoral researcher at UC Berkeley in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> with Prof. Laura Waller in the <a href="https://eecs.berkeley.edu/">Department of Electrical Engineering and Computer Sciences</a>, where I received my PhD in <a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a> and MS in Electrical Engineering and Computer Sciences. I am also the founder of <a href="https://photomics.ai/">Photomics, Inc.</a>, where I create open-source software for microscope control and label-free, computational microscopes.
 </p> 
 
-<p>My research is focused on the design of hardware, software, and algorithms for data and information-driven design and control of optical microscopes. This work draws from many fields, including optical physics, machine learning, single-cell biology, immunology, software engineering, data science, computer vision, and information theory. More details can be found in the <a href="https://henrypinkard.github.io#research">research</a> section.
+<p>My research has focused on the design of hardware, software, and algorithms for data and information-driven design and control of optical microscopes. Some of my recent areas of interest include optical physics, machine learning, single-cell biology, immunology, software engineering, computer vision, and information theory. More details can be found in the <a href="https://henrypinkard.github.io#research">research</a> section.
 
 <p>
 Before coming to UC Berkeley, I spent 3 years at the UCSF <a href="https://bidc.ucsf.edu/">Biological Imaging Development Center</a> with Prof. Matthew Krummel, where I built and programmed microscopes and did research on the immune system. Before that, I worked in <a href="https://valelab.ucsf.edu/">Prof. Ron Vale's lab</a> at UCSF where I helped develop an open source software for microscope control called <a href="https://micro-manager.org/wiki/Micro-Manager_Open_Source_Microscopy_Software">Micro-Manager</a>, which I've continued working on in the decade since.</p> 
