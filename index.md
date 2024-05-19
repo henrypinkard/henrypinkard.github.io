@@ -77,7 +77,7 @@ sections:
 ---
 
 
-<p>I am a part-time postdoctoral researcher at UC Berkeley in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> with Prof. Laura Waller in the <a href="https://eecs.berkeley.edu/">Department of Electrical Engineering and Computer Sciences</a>, where I received my PhD in <a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a> and MS in Electrical Engineering and Computer Sciences. I am also the founder of <a href="https://photomics.ai/">Photomics, Inc.</a>.
+<p>I am a postdoctoral researcher at UC Berkeley in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> with Prof. Laura Waller in the <a href="https://eecs.berkeley.edu/">Department of Electrical Engineering and Computer Sciences</a>, where I received my PhD in <a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a> and MS in Electrical Engineering and Computer Sciences.
 </p> 
 
 <p>My research has focused on the design of hardware, software, algorithm development, and theory for optical microscopes and other imaging systems. Some of my recent areas of interest include optical physics, machine learning, single-cell biology, immunology, software engineering, computer vision, and information theory. More details can be found in the <a href="https://henrypinkard.github.io#research">research</a> section.
