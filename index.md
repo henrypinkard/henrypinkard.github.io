@@ -47,7 +47,7 @@ sections:
         video:
           src: /assets/img/work/focus.mp4
           alt: coherent focus
-        description: A fast autofocusing technique combining custom illumination patterns with a physics-based neural architecture to predict focus corrections from single images. Requires far fewer parameters than standard networks while maintaining accuracy. <br /> (<a href="https://doi.org/10.1364/OPTICA.6.000794">paper</a>) (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Single_shot_autofocus_pycromanager.html">tutorial</a>) (<a href="https://github.com/henrypinkard/DeepAutofocus">code</a>)
+        description: A fast autofocusing technique combining custom illumination patterns with a physics-based neural network architecture to predict focus corrections from single images. Requires far fewer parameters than standard networks while maintaining accuracy. <br /> (<a href="https://doi.org/10.1364/OPTICA.6.000794">paper</a>) (<a href="https://pycro-manager.readthedocs.io/en/latest/application_notebooks/Single_shot_autofocus_pycromanager.html">tutorial</a>) (<a href="https://github.com/henrypinkard/DeepAutofocus">code</a>)
 
 
   - title: Open-source software
