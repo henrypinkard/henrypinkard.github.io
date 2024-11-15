@@ -22,6 +22,7 @@ sections:
           alt: Extended channel
         description: A practical introduction to the fundamentals of information theory, describing concepts such as data compression and accurate transmission of messages in the presence of noise.  <br /> (<a href="https://doi.org/10.48550/arXiv.2206.07867">paper</a>)  (<a href="https://doi.org/10.5281/zenodo.6647779">code+figures</a>)
 
+
   - title: Computational microscopy 
     link: compmicroscopy
     items:
@@ -66,7 +67,7 @@ sections:
 
 ---
 
-I'm a postdoctoral researcher in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> at UC Berkeley, within the department of Electrical Engineering and Computer Sciences and the Berkeley AI Research Lab. I received my PhD (<a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a>) and MS (<a href="https://eecs.berkeley.edu/">EECS</a>) here, advised by Laura Waller.
+I'm a postdoctoral researcher in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> at UC Berkeley, within the department of Electrical Engineering and Computer Sciences and the <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>. I received my PhD (<a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a>) and MS (<a href="https://eecs.berkeley.edu/">EECS</a>) here, advised by Laura Waller.
 
 
 <p>My research focuses on using information theory and machine learning to design better imaging systems. Before coming to Berkeley, I worked in the UCSF <a href="https://bidc.ucsf.edu/">Biological Imaging Development Center</a>, where I did immunology research and built and programmed microscopes. I also helped create and maintain <a href="https://micro-manager.org/wiki/Micro-Manager_Open_Source_Microscopy_Software">Micro-Manager</a>, an open-source software for the control of microscopes.
