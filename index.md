@@ -29,7 +29,7 @@ sections:
         video: 
           src: /assets/img/work/bsccm_montage.mp4
           alt: Cell montage
-        description: contains over >400k images of white blood cells under varied LED illumination patterns, paired with protein expression measurements. It provides standardized training data for computational imaging and vision algorithms with biomedical applications. (<a href="https://waller-lab.github.io/BSCCM/">website</a>)
+        description: contains over >400k images of white blood cells under varied LED illumination patterns, paired with protein expression measurements. It provides standardized training data for computational imaging and vision algorithms with biomedical applications. <br /> (<a href="https://waller-lab.github.io/BSCCM/">website</a>)
       - title: Microscopes are coming for your job
         image:
           src: /assets/img/work/adaptive_dgm.png
