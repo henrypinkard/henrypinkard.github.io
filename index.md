@@ -56,7 +56,7 @@ sections:
         image:
           src: /assets/img/work/pycromanager_banner.png
           alt: Pycro-Manager banner
-        description: An open-source Python package for controlling microscopes, enabling automated experiments and real-time adaptive imaging. Works with hundreds of microscope components and handles large-scale data acquisition <br /> (<a href="https://pycro-manager.readthedocs.io/en/latest/">documentation</a>) (<a href="https://doi.org/10.1038/s41592-021-01087-6">paper</a>) (<a href="https://github.com/micro-manager/pycro-manager">code</a>)
+        description: An open-source Python package for controlling microscopes, enabling automated experiments and real-time adaptive imaging. Works with hundreds of microscope components and handles large-scale data acquisition. <br /> (<a href="https://pycro-manager.readthedocs.io/en/latest/">documentation</a>) (<a href="https://doi.org/10.1038/s41592-021-01087-6">paper</a>) (<a href="https://github.com/micro-manager/pycro-manager">code</a>)
 
       - title: Micro-Magellan
         video:
