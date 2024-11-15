@@ -4,8 +4,6 @@ profile_picture:
   src: /assets/img/HP_shot_large.jpg
   alt: website picture
 
-# research: <ul><li><a href="#infotheory">Information-theoretic design</a></li><li><a href="#compmicroscopy">Computational microscopy</a></li><li><a href="#software">Open-source software</a></li></ul>  A full list of publications can be found on <a href="https://scholar.google.com/citations?user=-CpByXMAAAAJ&hl=en">Google Scholar</a>.
-
 sections:
 
   - title: Information-theoretic design
@@ -32,8 +30,6 @@ sections:
           src: /assets/img/work/bsccm_montage.mp4
           alt: Cell montage
         description: contains over >400k images of white blood cells under varied LED illumination patterns, paired with protein expression measurements. It provides standardized training data for computational imaging and vision algorithms with biomedical applications. (<a href="https://waller-lab.github.io/BSCCM/">website</a>)
-
-    items:
       - title: Microscopes are coming for your job
         image:
           src: /assets/img/work/adaptive_dgm.png
@@ -73,5 +69,5 @@ sections:
 I'm a postdoctoral researcher in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> at UC Berkeley, within the department of Electrical Engineering and Computer Sciences and the Berkeley AI Research Lab. I received my PhD (<a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a>) and MS (<a href="https://eecs.berkeley.edu/">EECS</a>) here, advised by Laura Waller.
 
 
-<p>My research focuses on using information theory and machine learning to design better imaging systems. Before coming to Berkeley, I worked in the UCSF <a href="https://bidc.ucsf.edu/">Biological Imaging Development Center</a>, where I did immunology research and built and programmed microscopes. I also helped create and maintain <a href="https://micro-manager.org/wiki/Micro-Manager_Open_Source_Microscopy_Software">Micro-Manager</a>, an open source software for the control of microscopes.
+<p>My research focuses on using information theory and machine learning to design better imaging systems. Before coming to Berkeley, I worked in the UCSF <a href="https://bidc.ucsf.edu/">Biological Imaging Development Center</a>, where I did immunology research and built and programmed microscopes. I also helped create and maintain <a href="https://micro-manager.org/wiki/Micro-Manager_Open_Source_Microscopy_Software">Micro-Manager</a>, an open-source software for the control of microscopes.
 
