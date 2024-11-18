@@ -142,3 +142,5 @@ gem build bay_jekyll_theme.gemspec
 ```sh
 gem push bay_jekyll_theme-1.x.x.gem
 ```
+
+*This site uses Google Analytics for visitor statistics.*
