@@ -29,7 +29,7 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  font-weight: 300;
+  font-weight: 400;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -99,8 +99,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
-  font-family: "Futura", sans-serif;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
 }
 
 h4 {

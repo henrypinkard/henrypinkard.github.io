@@ -67,8 +67,22 @@ sections:
 
 ---
 
-I'm a postdoctoral researcher in the <a href="http://www.laurawaller.com/">Computational Imaging Lab</a> at UC Berkeley, within the department of Electrical Engineering and Computer Sciences and the <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>. I received my PhD (<a href="https://ccb.berkeley.edu/academics/phd-in-computational-biology/" >Computational Biology</a>) and MS (<a href="https://eecs.berkeley.edu/">EECS</a>) here, advised by Laura Waller.
+I'm an interdisciplinary researcher with expertise in information theory, computational imaging, deep learning, biology, and software engineering. I did my PhD and postdoc in the UC Berkeley <a href="https://eecs.berkeley.edu/">EECS</a> department and <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>, advised by <a href="http://www.laurawaller.com/">Laura Waller</a>.
 
+<p>My research has included:</p>
 
-<p>My research focuses on using information theory and machine learning to design better imaging systems. Before coming to Berkeley, I worked in the UCSF <a href="https://bidc.ucsf.edu/">Biological Imaging Development Center</a>, where I did immunology research and built and programmed microscopes. I also helped develop <a href="https://micro-manager.org/wiki/Micro-Manager_Open_Source_Microscopy_Software">Micro-Manager</a>, an open-source software for the control of microscopes.
+<ul>
+<li>Inventing a technique to design cameras and other sensors for AI rather than human vision</li>
+<li>Building the ARC-AGI-2 benchmark for testing fluid intelligence in large language models</li>
+<li>Developing neural network architectures that incorporate physics knowledge to enable fast and low-cost scientific discovery</li>
+<li>Creating a 12-million-image biomedical dataset to train computer vision algorithms</li>
+<li>Producing the most widely used software for automating microscopes, used in applications from diagnosing disease to discovering new materials</li>
+</ul>
+
+<p style="text-align: center">
+<a href="mailto:research@henrypinkard.com">Email</a> &nbsp;/&nbsp;
+<a href="https://scholar.google.com/citations?user=-CpByXMAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+<a href="https://github.com/henrypinkard">GitHub</a> &nbsp;/&nbsp;
+<a href="https://bsky.app/profile/henrypinkard.bsky.social">Bluesky</a>
+</p>
 
