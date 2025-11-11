@@ -15,6 +15,10 @@
  flex: 0 0 300px;
  height: 200px;
  object-fit: contain; /* Prevent stretching */
+ image-rendering: -webkit-optimize-contrast;
+ -webkit-backface-visibility: hidden;
+ transform: translateZ(0);
+ will-change: transform;
 }
 
 .work-text {
