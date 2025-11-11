@@ -120,7 +120,7 @@ sections:
         venue: "2025"
         venue_url: https://www.arxiv.org/abs/2507.07789
         links:
-          - text: arXiv
+          - text: paper
             url: https://www.arxiv.org/abs/2507.07789
         description: 'An application-agnostic optical design method with reduced runtime and memory for information-theoretic optimization of imaging systems.'
 
@@ -132,9 +132,22 @@ sections:
         venue: "2025"
         venue_url: https://arxiv.org/abs/2506.08513
         links:
-          - text: arXiv
+          - text: paper
             url: https://arxiv.org/abs/2506.08513
         description: 'Evaluates lensless imaging systems using mutual information to establish design principles for object-dependent imaging, discovering shared properties across information-optimal measurements.'
+
+      - title: Neural network-based dark-field differential phase contrast microscopy
+        image:
+          src: /assets/img/work/Fard2025.png
+          alt: Neural network DPC microscopy
+        authors: "Zahra Khodabakhshi Fard, Henry Pinkard, Laura Waller"
+        venue: "SPIE BiOS 2025"
+        venue_url: https://doi.org/10.1117/12.3043897
+        links:
+          - text: paper
+            url: https://doi.org/10.1117/12.3043897
+        description: 'Fast quantitative phase imaging method achieving high resolution with fewer images than traditional approaches.'
+
 
       - title: Information-theoretic design for high-dimensional computational imaging
         image:
@@ -180,6 +193,39 @@ sections:
             url: https://doi.org/10.5281/zenodo.6647779
         description: 'Tutorial on information theory for machine learning practitioners, covering data compression and transmission in noisy channels.'
 
+      - title: Image denoising for fluorescence microscopy by supervised to self-supervised transfer learning
+        image:
+          src: /assets/img/work/wang_optics_express2021.jpg
+          alt: Microscopy image denoising
+        authors: "Yina Wang, Henry Pinkard, Emaad Khwaja, Shuqin Zhou, Laura Waller, Bo Huang"
+        venue: "Optics Express 2021"
+        venue_url: https://doi.org/10.1364/OE.434191
+        links:
+          - text: paper
+            url: https://doi.org/10.1364/OE.434191
+        description: 'Deep learning method for removing noise from microscopy images without requiring matched training data.'
+
+      - title: The Microscope Device Abstraction Layer of Micro-Manager
+        image:
+          src: /assets/img/work/amodaj_mmcore_2021.png
+          alt: Micro-Manager device abstraction
+        authors: "Nenad Amodaj, Henry Pinkard, Nick Anthony, Nico Stuurman"
+        venue: "2021"
+        links: []
+        description: 'Software architecture enabling control of thousands of microscope devices through a unified interface.'
+
+      - title: Quantitative Clonal Analysis and Single-Cell Transcriptomics Reveal Division Kinetics, Hierarchy, and Fate of Oral Epithelial Progenitor Cells
+        image:
+          src: /assets/img/work/Jones2019.png
+          alt: Oral epithelial cell analysis
+        authors: "Kyle B. Jones, Sachiko Furukawa, Pauline Marangoni, Hongfang Ma, Henry Pinkard, Rebecca D'Urso, Rapolas Zilionis, Allon M. Klein, Ophir D. Klein"
+        venue: "Cell Stem Cell 2019"
+        venue_url: https://doi.org/10.1016/j.stem.2018.10.015
+        links:
+          - text: paper
+            url: https://doi.org/10.1016/j.stem.2018.10.015
+        description: 'Single-cell analysis revealing the organization and dynamics of oral tissue stem cells.'
+
       - title: Micro-Magellan
         video:
           src: ./assets/img/work/explore_square.mp4
@@ -220,18 +266,6 @@ sections:
             url: https://doi.org/10.1371/journal.pone.0150430
         description: 'Computational method for improving microscope image quality while reducing exposure time.'
 
-      - title: "Limb phase flexibility in walking: a test case in the squirrel monkey (Saimiri sciureus)"
-        image:
-          src: /assets/img/work/miller_2019_limb_phase_flexibility.png
-          alt: Squirrel monkey gait analysis
-        authors: "Charlotte Elizabeth Miller, Laura Elizabeth Johnson, Henry Pinkard, Pierre Lemelin, Daniel Schmitt"
-        venue: "Frontiers in Zoology 2019"
-        venue_url: https://doi.org/10.1186/s12983-019-0299-8
-        links:
-          - text: paper
-            url: https://doi.org/10.1186/s12983-019-0299-8
-        description: 'Model for predicting quadrupedal gait selection based on energy efficiency and balance requirements.'
-
       - title: Assessing and benchmarking multiphoton microscopes for biologists
         image:
           src: /assets/img/work/Corbin2017.png
@@ -256,17 +290,17 @@ sections:
             url: https://doi.org/10.14440/jbm.2014.36
         description: 'Open-source software platform for controlling automated microscopes and coordinating complex imaging experiments.'
 
-      - title: The mechanics of acceleration and deceleration in primate quadrupeds
+      - title: "Limb phase flexibility in walking: a test case in the squirrel monkey (Saimiri sciureus)"
         image:
-          src: /assets/img/work/pinkard2013.jpg
-          alt: Primate acceleration mechanics
-        authors: "Henry Pinkard, Daniel Schmitt, Laura E. Johnson, Charlotte E. Miller"
-        venue: "FASEB Journal 2013"
-        venue_url: https://doi.org/10.1096/fasebj.27.1_supplement.755.12
+          src: /assets/img/work/miller_2019_limb_phase_flexibility.png
+          alt: Squirrel monkey gait analysis
+        authors: "Charlotte Elizabeth Miller, Laura Elizabeth Johnson, Henry Pinkard, Pierre Lemelin, Daniel Schmitt"
+        venue: "Frontiers in Zoology 2019"
+        venue_url: https://doi.org/10.1186/s12983-019-0299-8
         links:
           - text: paper
-            url: https://doi.org/10.1096/fasebj.27.1_supplement.755.12
-        description: 'Analysis of how primate anatomy affects their ability to accelerate and decelerate during movement.'
+            url: https://doi.org/10.1186/s12983-019-0299-8
+        description: 'Model for predicting quadrupedal gait selection based on energy efficiency and balance requirements.'
 
       - title: Pitch control and speed limitation during overground deceleration in lemurid primates
         image:
@@ -280,50 +314,17 @@ sections:
             url: https://doi.org/10.1002/jmor.20944
         description: 'Study showing how primate body geometry helps avoid forward pitching during rapid deceleration.'
 
-      - title: The Microscope Device Abstraction Layer of Micro-Manager
+      - title: The mechanics of acceleration and deceleration in primate quadrupeds
         image:
-          src: /assets/img/work/amodaj_mmcore_2021.png
-          alt: Micro-Manager device abstraction
-        authors: "Nenad Amodaj, Henry Pinkard, Nick Anthony, Nico Stuurman"
-        venue: "2021"
-        links: []
-        description: 'Software architecture enabling control of thousands of microscope devices through a unified interface.'
-
-      - title: Quantitative Clonal Analysis and Single-Cell Transcriptomics Reveal Division Kinetics, Hierarchy, and Fate of Oral Epithelial Progenitor Cells
-        image:
-          src: /assets/img/work/Jones2019.png
-          alt: Oral epithelial cell analysis
-        authors: "Kyle B. Jones, Sachiko Furukawa, Pauline Marangoni, Hongfang Ma, Henry Pinkard, Rebecca D'Urso, Rapolas Zilionis, Allon M. Klein, Ophir D. Klein"
-        venue: "Cell Stem Cell 2019"
-        venue_url: https://doi.org/10.1016/j.stem.2018.10.015
+          src: /assets/img/work/pinkard2013.jpg
+          alt: Primate acceleration mechanics
+        authors: "Henry Pinkard, Daniel Schmitt, Laura E. Johnson, Charlotte E. Miller"
+        venue: "FASEB Journal 2013"
+        venue_url: https://doi.org/10.1096/fasebj.27.1_supplement.755.12
         links:
           - text: paper
-            url: https://doi.org/10.1016/j.stem.2018.10.015
-        description: 'Single-cell analysis revealing the organization and dynamics of oral tissue stem cells.'
-
-      - title: Image denoising for fluorescence microscopy by supervised to self-supervised transfer learning
-        image:
-          src: /assets/img/work/wang_optics_express2021.jpg
-          alt: Microscopy image denoising
-        authors: "Yina Wang, Henry Pinkard, Emaad Khwaja, Shuqin Zhou, Laura Waller, Bo Huang"
-        venue: "Optics Express 2021"
-        venue_url: https://doi.org/10.1364/OE.434191
-        links:
-          - text: paper
-            url: https://doi.org/10.1364/OE.434191
-        description: 'Deep learning method for removing noise from microscopy images without requiring matched training data.'
-
-      - title: Neural network-based dark-field differential phase contrast microscopy
-        image:
-          src: /assets/img/work/Fard2025.png
-          alt: Neural network DPC microscopy
-        authors: "Zahra Khodabakhshi Fard, Henry Pinkard, Laura Waller"
-        venue: "SPIE BiOS 2025"
-        venue_url: https://doi.org/10.1117/12.3043897
-        links:
-          - text: paper
-            url: https://doi.org/10.1117/12.3043897
-        description: 'Fast quantitative phase imaging method achieving high resolution with fewer images than traditional approaches.'
+            url: https://doi.org/10.1096/fasebj.27.1_supplement.755.12
+        description: 'Analysis of how primate anatomy affects their ability to accelerate and decelerate during movement.'
 
 ---
 
