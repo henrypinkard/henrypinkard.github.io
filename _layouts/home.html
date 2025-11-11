@@ -30,22 +30,15 @@ div.main-pic {
 
   <div class="wrapper">
     <div class="work">
-          <center><h1><a id="research" style="color:black;text-decoration:underline;pointer-events:none" > Research highlights
-          </a></h1></center>
+          <h2 style="text-align: center; margin-bottom: 40px; margin-top: 60px; font-size: 1.8em;">Research Highlights</h2>
           {{page.research}}
           {% for section in page.sections %}
-          <h2><a id="{{section.link}}" style="color:black;text-decoration:underline;pointer-events:none" > {{ section.title }}
-          </a></h2>
-          
-
             {% for item in section.items %}
             <div class="work-item">
               {% if item.image == null %}
                 <video autoplay="" loop="" muted="" width="200" class="work-bubble" alt="{{ item.image.alt }}"> 
                   <source src="{{ item.video.src | absolute_url }}" type="video/mp4">
-
                 </video>
-
               {% else  %}
                  <img
                 src="{{ item.image.src | absolute_url }}"
@@ -55,9 +48,27 @@ div.main-pic {
               {% endif %}
              
               <span class="work-text">
-                <strong><b>{{ item.title }}</b></strong>
-                &mdash;
-                {{item.description}}
+                <strong style="font-size: 1.1em;">{{ item.title }}</strong>
+                <br>
+                {% if item.venue %}
+                <span style="color: #666; font-size: 0.95em;">
+                  {% if item.venue_url %}
+                    <a href="{{ item.venue_url }}" style="color: #666;">{{ item.venue }}</a>
+                  {% else %}
+                    {{ item.venue }}
+                  {% endif %}
+                </span>
+                {% if item.links %} &nbsp;&nbsp; {% endif %}
+                {% endif %}
+                {% if item.links %}
+                <span style="font-size: 0.95em;">
+                  {% for link in item.links %}
+                    <a href="{{ link.url }}">{{ link.text }}</a>{% if forloop.last == false %} &nbsp;/&nbsp; {% endif %}
+                  {% endfor %}
+                </span>
+                {% endif %}
+                <br>
+                <span style="display: block; margin-top: 8px;">{{item.description}}</span>
               </span>
             </div>
             {% endfor %}
