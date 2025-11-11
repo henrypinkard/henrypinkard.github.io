@@ -16,11 +16,11 @@ div.main-pic {
         <div class="home">
           <table style="width:100%;border:none;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tr>
-              <td style="padding:20px;width:65%;vertical-align:middle">
+              <td style="padding:20px;width:65%;vertical-align:top">
                 <h1 style="font-size: 2.5em; margin-bottom: 0.2em;">Henry Pinkard</h1>
                 {{ content }}
               </td>
-              <td style="padding:20px;width:35%;max-width:35%;vertical-align:middle">
+              <td style="padding:20px;width:35%;max-width:35%;vertical-align:top">
                 <img src="{{ page.profile_picture.src | absolute_url }}" style="width:100%;max-width:280px;display:block;margin-left:auto;margin-right:auto;" alt="profile photo">
               </td>
             </tr>
@@ -33,10 +33,13 @@ div.main-pic {
           <h2 style="text-align: center; margin-bottom: 40px; margin-top: 60px; font-size: 1.8em;">Research Highlights</h2>
           {{page.research}}
           {% for section in page.sections %}
+            {% if section.title != "Research" %}
+              <h2 style="text-align: center; margin-bottom: 40px; margin-top: 80px; font-size: 1.8em;">{{ section.title }}</h2>
+            {% endif %}
             {% for item in section.items %}
             <div class="work-item">
               {% if item.image == null %}
-                <video autoplay="" loop="" muted="" width="200" class="work-bubble" alt="{{ item.image.alt }}"> 
+                <video loop muted preload="metadata" class="work-bubble" alt="{{ item.video.alt }}"> 
                   <source src="{{ item.video.src | absolute_url }}" type="video/mp4">
                 </video>
               {% else  %}
@@ -50,6 +53,10 @@ div.main-pic {
               <span class="work-text">
                 <strong style="font-size: 1.1em;">{{ item.title }}</strong>
                 <br>
+                {% if item.authors %}
+                <span class="author-list" style="font-size: 0.9em; color: #888;">{{ item.authors }}</span>
+                <br>
+                {% endif %}
                 {% if item.venue %}
                 <span style="color: #666; font-size: 0.95em;">
                   {% if item.venue_url %}
