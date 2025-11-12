@@ -11,6 +11,15 @@ div.main-pic {
 </style>
 
   <body>
+    <style>
+      @media (max-width: 768px) {
+        .profile-photo {
+          min-width: 180px;
+          width: 45vw;
+          max-width: 200px;
+        }
+      }
+    </style>
     <div class="page-content" style="padding-top: 40px;">
       <div class="wrapper">
         <div class="home">
@@ -21,7 +30,7 @@ div.main-pic {
                 {{ content }}
               </td>
               <td style="padding:20px;width:35%;max-width:35%;vertical-align:top">
-                <img src="{{ page.profile_picture.src | absolute_url }}" style="width:100%;max-width:280px;display:block;margin-left:auto;margin-right:auto;" alt="profile photo">
+                <img src="{{ page.profile_picture.src | absolute_url }}" class="profile-photo" style="width:100%;max-width:280px;display:block;margin-left:auto;margin-right:auto;" alt="profile photo">
               </td>
             </tr>
           </table>
