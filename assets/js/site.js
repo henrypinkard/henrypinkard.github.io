@@ -48,17 +48,49 @@ $(document).ready(function() {
     $(video).removeAttr("autoplay");
     video.pause();
     
-    // Play on hover
+    // Desktop: Play on hover
     $(video).parent().on("mouseenter", function() {
       video.play();
     });
     
-    // Pause when hover ends
+    // Desktop: Pause when hover ends
     $(video).parent().on("mouseleave", function() {
       video.pause();
       video.currentTime = 0; // Reset to beginning
     });
   });
+  
+  // Mobile/Tablet: Use Intersection Observer for autoplay when in view
+  if ('IntersectionObserver' in window) {
+    var isMobile = window.matchMedia("(max-width: 768px)").matches || 'ontouchstart' in window;
+    
+    if (isMobile) {
+      var videoObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          var video = entry.target;
+          
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            // Video is at least 50% visible
+            video.play().catch(function(e) {
+              // Handle autoplay policy restrictions
+              console.log("Autoplay prevented:", e);
+            });
+          } else {
+            // Video is out of view
+            video.pause();
+            video.currentTime = 0;
+          }
+        });
+      }, {
+        threshold: [0, 0.5, 1] // Trigger at 0%, 50%, and 100% visibility
+      });
+      
+      // Observe all videos
+      $(".work-item video").each(function() {
+        videoObserver.observe(this);
+      });
+    }
+  }
   
   // Highlight author name
   $(".author-list").each(function() {

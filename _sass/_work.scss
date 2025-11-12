@@ -18,15 +18,21 @@
 }
 
 .work-bubble {
- flex: 0 0 300px;
+ flex: 0 0 40%; /* Take 40% of container width */
+ min-width: 150px; /* Don't go below 150px */
+ max-width: 300px; /* Don't go above 300px */
  height: 200px;
  object-fit: contain; /* Prevent stretching */
  image-rendering: -webkit-optimize-contrast;
  -webkit-backface-visibility: hidden;
  transform: translateZ(0);
  will-change: transform;
- max-width: 300px;
- width: 100%;
+}
+
+@media (max-width: 600px) {
+  .work-bubble {
+    height: 150px; /* Reduce height on very narrow screens */
+  }
 }
 
 .work-text {
