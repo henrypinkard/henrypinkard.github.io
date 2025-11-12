@@ -335,7 +335,7 @@ I'm an interdisciplinary researcher with expertise in information theory, comput
 <p>My research has included:</p>
 
 <ul>
-<li>Inventing a technique to design cameras and other sensors for AI rather than human vision</li>
+<li>Inventing a technique to design cameras and other sensors for AI rather than for human vision</li>
 <li>Building the ARC-AGI-2 benchmark for testing fluid intelligence in large language models</li>
 <li>Creating a 12-million-image biomedical dataset to train computer vision algorithms</li>
 <li>Producing the most widely used software for automating microscopes, used in applications from diagnosing disease to discovering new materials</li>
