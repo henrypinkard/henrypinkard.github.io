@@ -41,7 +41,7 @@ div.main-pic {
             {% for item in section.items %}
             <div class="work-item">
               {% if item.image == null %}
-                <video loop muted preload="metadata" class="work-bubble" alt="{{ item.video.alt }}"> 
+                <video loop muted playsinline preload="metadata" class="work-bubble" alt="{{ item.video.alt }}"> 
                   <source src="{{ item.video.src | absolute_url }}" type="video/mp4">
                 </video>
               {% else  %}
