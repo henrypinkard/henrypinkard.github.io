@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/HP_shot_new.png
+  src: /assets/img/HP_square.png
   alt: Headshot
 
 sections:
