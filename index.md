@@ -1,8 +1,8 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/HP_shot_large.jpg
-  alt: website picture
+  src: /assets/img/HP_shot_new.png
+  alt: Headshot
 
 sections:
   - title: Research
