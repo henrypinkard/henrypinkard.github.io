@@ -134,7 +134,7 @@ sections:
         links:
           - text: paper
             url: https://arxiv.org/abs/2506.08513
-        description: 'Evaluates lensless imaging systems using mutual information to establish design principles for object-dependent imaging, discovering shared properties across information-optimal measurements.'
+        description: 'Mutual information-based evaluation and design of lensless imaging systems, establishing principles for object-dependent imaging.'
 
       - title: Neural network-based dark-field differential phase contrast microscopy
         image:
@@ -211,7 +211,9 @@ sections:
           alt: Micro-Manager device abstraction
         authors: "Nenad Amodaj, Henry Pinkard, Nick Anthony, Nico Stuurman"
         venue: "2021"
-        links: []
+        links:
+          - text: paper
+            url: /assets/pdf/MMCoreDesign.pdf
         description: 'Software architecture enabling control of thousands of microscope devices through a unified interface.'
 
       - title: Quantitative Clonal Analysis and Single-Cell Transcriptomics Reveal Division Kinetics, Hierarchy, and Fate of Oral Epithelial Progenitor Cells
@@ -294,7 +296,7 @@ sections:
         image:
           src: /assets/img/work/miller_2019_limb_phase_flexibility.png
           alt: Squirrel monkey gait analysis
-        authors: "Charlotte Elizabeth Miller, Laura Elizabeth Johnson, Henry Pinkard, Pierre Lemelin, Daniel Schmitt"
+        authors: "Charlotte E. Miller, Laura E. Johnson, Henry Pinkard, Pierre Lemelin, Daniel Schmitt"
         venue: "Frontiers in Zoology 2019"
         venue_url: https://doi.org/10.1186/s12983-019-0299-8
         links:
