@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/HP_square.jpg
+  src: /assets/img/HP_square_crop.png
   alt: Headshot
 
 sections:
@@ -332,14 +332,13 @@ sections:
 
 I'm an interdisciplinary researcher with expertise in information theory, computational imaging, deep learning, biology, and software engineering. I did my PhD and postdoc in the UC Berkeley <a href="https://eecs.berkeley.edu/">EECS</a> department and <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>, advised by <a href="http://www.laurawaller.com/">Laura Waller</a>.
 
-<p>My research has included:</p>
-
+<p>My work includes:</p>
 <ul>
-<li>Inventing a technique to design cameras and other sensors for AI rather than for human vision</li>
-<li>Building the ARC-AGI-2 benchmark for testing fluid intelligence in large language models</li>
-<li>Creating a 12-million-image biomedical dataset to train computer vision algorithms</li>
-<li>Producing the most widely used software for automating microscopes, used in applications from diagnosing disease to discovering new materials</li>
-<li>Developing neural network architectures that incorporate physics knowledge to enable fast and low-cost scientific discovery</li>
+<li>A technique to design cameras and other sensors for AI rather than for human vision</li>
+<li>The ARC-AGI-2 benchmark for testing fluid intelligence in large language models</li>
+<li>A 12-million-image biomedical dataset to train computer vision algorithms</li>
+<li>The most widely adopted software for automating microscopes, with applications ranging from cellular imaging to nanomaterials research</li>
+<li>Neural network architectures that incorporate physics knowledge to enable fast and low-cost scientific discovery</li>
 </ul>
 
 <p style="text-align: center">
