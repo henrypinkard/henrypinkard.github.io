@@ -23,7 +23,7 @@ sections:
             url: https://github.com/Waller-Lab/EncodingInformation
         description: 'A method to design imaging systems that capture maximum information for AI, free from human perceptual constraints. Applicable to diverse systems from consumer cameras to radio telescopes imaging black holes.'
 
-      - title: ARC-AGI-2 - A challenge for frontier AI reasoning systems
+      - title: ARC-AGI-2 - A new challenge for frontier AI reasoning systems
         image:
           src: /assets/img/work/arc2.png
           alt: ARC-AGI-2
