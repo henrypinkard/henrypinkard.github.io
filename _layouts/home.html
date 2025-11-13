@@ -45,7 +45,8 @@ div.main-pic {
               <h2 style="text-align: center; margin-bottom: 40px; margin-top: 80px; font-size: 1.8em;">{{ section.title }}</h2>
             {% endif %}
             {% for item in section.items %}
-            <div class="work-item">
+            {% assign item_id = item.title | downcase | replace: ' ', '-' | replace: ':', '' | replace: '(', '' | replace: ')', '' %}
+            <div class="work-item" id="{{ item_id }}">
               {% if item.image == null %}
                 <video loop muted playsinline preload="metadata" class="work-bubble" alt="{{ item.video.alt }}"> 
                   <source src="{{ item.video.src | absolute_url }}" type="video/mp4">

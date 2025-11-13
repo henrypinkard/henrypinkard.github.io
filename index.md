@@ -51,7 +51,7 @@ sections:
             url: https://github.com/Waller-Lab/BSCCM
         description: 'A 12-million-image biomedical computer vision benchmark with images of white blood cells under varied illumination, paired with protein expression labels.'
 
-      - title: Pycro-Manager
+      - title: "Pycro-Manager: open-source microscope control software"
         image:
           src: /assets/img/work/pycromanager_banner.png
           alt: Pycro-Manager banner
@@ -105,7 +105,7 @@ sections:
         image:
           src: /assets/img/work/bayesian_optimization_diagram.png
           alt: Bayesian optimization
-        authors: "Eric Markley, Jiantao Jiao, Henry Pinkard, Tiffany Chien, Leyla Kabuli, Laura Waller"
+        authors: "Leyla A. Kabuli, Nalini M. Singh, Henry Pinkard, Laura Waller"
         venue: "Optica COSI 2025"
         links:
           - text: website
@@ -334,11 +334,11 @@ I'm an interdisciplinary researcher with expertise in information theory, comput
 
 <p>My work includes:</p>
 <ul>
-<li>A technique to design cameras and other sensors for AI rather than for human vision</li>
-<li>The ARC-AGI-2 benchmark for testing fluid intelligence in large language models</li>
-<li>A 12-million-image biomedical dataset to train computer vision algorithms</li>
-<li>The most widely adopted software for automating microscopes, with applications ranging from cellular imaging to nanomaterials research</li>
-<li>Neural network architectures that incorporate physics knowledge to enable fast and low-cost scientific discovery</li>
+<li>A technique to <a href="#information-driven-design-of-imaging-systems">design cameras and other sensors for AI</a> rather than for human vision</li>
+<li>The <a href="#arc-agi-2---a-new-challenge-for-frontier-ai-reasoning-systems">ARC-AGI-2 benchmark</a> for testing fluid intelligence in large language models</li>
+<li>A <a href="#the-berkeley-single-cell-computational-microscopy-bsccm-dataset">12-million-image biomedical dataset</a> to train computer vision algorithms</li>
+<li>The most widely adopted <a href="#pycro-manager-open-source-microscope-control-software">software for automating microscopes</a>, with applications ranging from cellular imaging to nanomaterials research</li>
+<li><a href="#learned-adaptive-multiphoton-illumination-microscopy">Neural network architectures</a> that incorporate physics knowledge to enable fast and low-cost scientific discovery</li>
 </ul>
 
 <p style="text-align: center">
