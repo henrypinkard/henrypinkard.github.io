@@ -9,7 +9,7 @@ sections:
     items:
       - title: Information-driven design of imaging systems
         video:
-          src: /assets/img/work/ideal_small.mp4
+          src: /assets/img/work/info_driven_design_video_abstract.mp4
           alt: Encoding info
         authors: "Henry Pinkard, Leyla Kabuli, Eric Markley, Tiffany Chien, Jiantao Jiao, Laura Waller"
         venue: "NeurIPS 2025"
