@@ -19,6 +19,8 @@ sections:
             url: https://waller-lab.github.io/EncodingInformationWebsite/
           - text: paper
             url: https://doi.org/10.48550/arXiv.2405.20559
+          - text: poster
+            url: https://waller-lab.github.io/EncodingInformationWebsite/static/Neurips_poster.pdf
           - text: code
             url: https://github.com/Waller-Lab/EncodingInformation
         description: 'A method to design imaging systems that capture maximum information for AI, free from human perceptual constraints. Applicable to diverse systems from consumer cameras to radio telescopes imaging black holes.'
