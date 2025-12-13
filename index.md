@@ -53,6 +53,20 @@ sections:
             url: https://github.com/Waller-Lab/BSCCM
         description: 'A 12-million-image biomedical computer vision benchmark with images of white blood cells under varied illumination, paired with protein expression labels.'
 
+      - title: A visual introduction to information theory
+        image:
+          src: /assets/img/work/extended_noisy_channel.png
+          alt: Extended channel
+        authors: "Henry Pinkard, Laura Waller"
+        venue: "2022"
+        venue_url: https://doi.org/10.48550/arXiv.2206.07867
+        links:
+          - text: paper
+            url: https://doi.org/10.48550/arXiv.2206.07867
+          - text: code+figures
+            url: https://doi.org/10.5281/zenodo.6647779
+        description: 'Tutorial introduction to information theory, covering data compression and transmission in noisy channels.'
+
       - title: "Pycro-Manager: open-source microscope control software"
         image:
           src: /assets/img/work/pycromanager_banner.png
@@ -180,20 +194,6 @@ sections:
           - text: paper
             url: https://rdcu.be/cVdty
         description: 'Perspective on future possibilities for agentic AI and reinforcement learning in automated scientific discovery.'
-
-      - title: A visual introduction to information theory
-        image:
-          src: /assets/img/work/extended_noisy_channel.png
-          alt: Extended channel
-        authors: "Henry Pinkard, Laura Waller"
-        venue: "2022"
-        venue_url: https://doi.org/10.48550/arXiv.2206.07867
-        links:
-          - text: paper
-            url: https://doi.org/10.48550/arXiv.2206.07867
-          - text: code+figures
-            url: https://doi.org/10.5281/zenodo.6647779
-        description: 'Tutorial on information theory for machine learning practitioners, covering data compression and transmission in noisy channels.'
 
       - title: Image denoising for fluorescence microscopy by supervised to self-supervised transfer learning
         image:
