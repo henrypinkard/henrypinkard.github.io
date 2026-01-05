@@ -38,6 +38,19 @@ sections:
             url: https://arxiv.org/html/2505.11831v1
         description: 'A benchmark for testing fluid intelligence and compositional reasoning in AI systems. Tests symbolic interpretation, multi-step reasoning, and contextual understanding beyond pattern matching.'
 
+      - title: The missing data for intelligent scientific instruments
+        video:
+          src: /assets/img/work/intelligent_instruments_demo.mp4
+          alt: Intelligent instruments workflow
+        authors: "Henry Pinkard, Nils Norlin"
+        venue: "Nature Methods 2025"
+        venue_url: https://doi.org/10.1038/s41592-025-02995-7
+        links:
+          - text: paper
+            url: https://doi.org/10.1038/s41592-025-02995-7
+        description: 'Outlines a path for AI to learn expert experimental skills from the rich digital traces that scientific instruments already generate.'
+
+
       - title: The Berkeley single-cell computational microscopy (BSCCM) dataset
         video: 
           src: /assets/img/work/bsccm_montage.mp4
@@ -117,17 +130,6 @@ sections:
 
   - title: Additional Publications
     items:
-      - title: The missing data for intelligent scientific instruments
-        video:
-          src: /assets/img/work/intelligent_instruments_demo.mp4
-          alt: Intelligent instruments workflow
-        authors: "Henry Pinkard, Nils Norlin"
-        venue: "Nature Methods 2025"
-        venue_url: https://doi.org/10.1038/s41592-025-02995-7
-        links:
-          - text: paper
-            url: https://doi.org/10.1038/s41592-025-02995-7
-        description: 'Proposes how AI could transform scientific instruments from simple automation to intelligent research partners by learning from the rich data streams they currently discard.'
 
       - title: Information-theoretic Bayesian optimization of imaging systems
         image:
