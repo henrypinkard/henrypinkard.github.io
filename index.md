@@ -346,7 +346,7 @@ sections:
 
 ---
 
-I'm an interdisciplinary researcher with expertise in information theory, computational imaging, deep learning, biology, and software engineering. I did my PhD and postdoc in the UC Berkeley <a href="https://eecs.berkeley.edu/">EECS</a> department and <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>, advised by <a href="http://www.laurawaller.com/">Laura Waller</a>.
+I'm research scientist with expertise information theory, AI evaluation, and open-source scientific software. I did my PhD and postdoc in the UC Berkeley <a href="https://eecs.berkeley.edu/">EECS</a> department and <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>, advised by <a href="http://www.laurawaller.com/">Laura Waller</a>.
 
 <p>My work includes:</p>
 <ul>
