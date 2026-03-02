@@ -450,12 +450,9 @@ blockquote {
 }
 
 /* Figure hover tooltip */
-.figure-tooltip {
+#figure-tooltip {
   display: none;
-  position: absolute;
-  bottom: calc(100% + 4px);
-  left: 50%;
-  transform: translateX(-50%);
+  position: fixed;
   width: 420px;
   max-width: 90vw;
   background: #fff;
@@ -463,14 +460,15 @@ blockquote {
   border-radius: 4px;
   padding: 0.5rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  z-index: 100;
+  z-index: 2000;
+  pointer-events: none;
 }
 
-.figure-tooltip.visible {
+#figure-tooltip.visible {
   display: block;
 }
 
-.figure-tooltip img {
+#figure-tooltip img {
   width: 100%;
   height: auto;
   display: block;
