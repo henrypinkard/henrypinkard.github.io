@@ -1,146 +1,43 @@
-# bay
+# henrypinkard.github.io
 
-Bay is a simple theme for Jekyll. [[view live]](https://eliottvincent.github.io/bay)
+Personal website and blog for Henry Pinkard. Built with Jekyll (Bay theme).
 
-Inspired by [dangrover.com](http://dangrover.com/). Current theme used at [eliottvincent.com](http://eliottvincent.com/).
+## Local development
 
-![](/screenshot.png)
-
-### Installation
-
-
-The easiest solution is to [fork this repo](https://github.com/eliottvincent/bay/fork).
-If you want to start from a clean website, follow the steps bellow:
-
-Create a new Jekyll website:
-```
-jekyll new mysite
-```
-
-Open `Gemfile` and replace the line:
-```
-gem "minima"
-```
-with:
-```
-gem "bay_jekyll_theme"
-```
-
-Open `_config.yml` and replace the line:
-```
-theme: minima
-```
-with:
-```
-theme: bay_jekyll_theme
-```
-or, for GitHub Pages:
-```
-remote_theme: eliottvincent/bay
-```
-
-Finally, install the dependencies:
-```
-bundle install
-```
-
-and build the website!
-```
-jekyll serve
-```
-
-
-The website will look somewhat empty at first. That's normal. Follow the next instructions to complete the header and footer components, and the home and blog pages.
-
-### Header
-Open the `_config.yml` file and add the following:
-```yml
-header:
-  pages:
-    - name: Home
-      slug: /     # <-- index.md
-    - name: Blog  # <-- blog.md
-    - name: Whatever  # <-- whatever.md
-```
-Re-run `jekyll serve` to see the header updated.
-
-### Footer
-Open the `_config.yml` file and add the following:
-```yml
-footer:
-  show_powered_by: true
-  contact:
-    - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
-  follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: Weibo
-      link: http://weibo.com/u/YourWeiboUsername
-    - name: RSS
-      link: /feed.xml
-```
-Re-run `jekyll serve` to see the footer updated.
-
-### Home page
-Create (or edit) the `index.markdown` file and add the following:
-```yml
----
-layout: home
-profile_picture:
-  src: /assets/img/profile-pic.jpg
-  alt: website picture
----
-
-<p>
-  Welcome to mysite!
-</p>
-```
-
-### Blog page
-Create `blog.markdown` file and add the following:
-```yml
----
-layout: blog
-title: Blog
-slug: /blog
----
-
-This is an example of a "Blog" page, displaying a list of posts.
-<br />
-```
-
-
-Your website is ready!
-
-
-### Development
-
-#### Run development instance (with hot-reload)
-```sh
+```bash
 bundle exec jekyll serve
 ```
 
-#### Build and publish the gem
-```sh
-gem build bay_jekyll_theme.gemspec
+## Blog posts
+
+The blog has two types of posts:
+
+**Standard posts** — Markdown files in `_posts/` with `layout: post`.
+
+**External posts** — Self-contained static HTML sites from other repos, copied into `blog/`. Each has a stub in `_posts/` with `external_url` so it appears in the blog listing and links directly to the static page.
+
+## Updating external blog posts
+
+Run the update script to re-copy from source repos:
+
+```bash
+# Update all external posts
+bash scripts/update-blog-posts.sh
+
+# Update one specific post
+bash scripts/update-blog-posts.sh visual-info-theory
 ```
 
-```sh
-gem push bay_jekyll_theme-1.x.x.gem
+For Visual Info Theory, rebuild the source first:
+```bash
+cd ~/GitRepos/VisualInfoTheoryPaper && make clean html
 ```
 
-*This site uses Google Analytics for visitor statistics.*
+The encoding-structure post is edited directly in this repo (its source repo now redirects here).
+
+## Adding a new external blog post
+
+1. Add an update function in `scripts/update-blog-posts.sh` (follow the existing pattern)
+2. Add it to the `ALL_POSTS` array
+3. Create a stub in `_posts/` with `external_url`, `permalink` (to avoid path collision), `image`, and `blurb`
+4. Run the script, commit, push
