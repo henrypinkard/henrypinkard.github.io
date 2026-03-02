@@ -890,35 +890,43 @@
   });
 })();
 
-// Figure hover tooltips
+// Figure hover tooltips (single shared tooltip, fixed position)
 (function() {
-  // Build a set of all figure IDs
   var figIds = {};
   document.querySelectorAll('figure[id]').forEach(function(fig) {
     figIds[fig.id] = fig;
   });
 
-  // Find all links that point to a figure
+  // Create a single tooltip element appended to body
+  var tip = document.createElement('div');
+  tip.id = 'figure-tooltip';
+  var tipImg = document.createElement('img');
+  tip.appendChild(tipImg);
+  document.body.appendChild(tip);
+
   document.querySelectorAll('a[href^="#"]').forEach(function(link) {
     var id = link.getAttribute('href').slice(1);
     var fig = figIds[id];
     if (!fig) return;
-
     var img = fig.querySelector('img');
     if (!img) return;
 
-    var tip = document.createElement('div');
-    tip.className = 'figure-tooltip';
-    var preview = document.createElement('img');
-    preview.src = img.src;
-    preview.alt = img.alt || '';
-    tip.appendChild(preview);
-
-    link.style.position = 'relative';
-    link.appendChild(tip);
-
-    link.addEventListener('mouseenter', function() { tip.classList.add('visible'); });
-    link.addEventListener('mouseleave', function() { tip.classList.remove('visible'); });
+    link.addEventListener('mouseenter', function() {
+      tipImg.src = img.src;
+      var rect = link.getBoundingClientRect();
+      var tipWidth = 420;
+      var left = rect.left + rect.width / 2 - tipWidth / 2;
+      // Keep tooltip on screen
+      if (left < 8) left = 8;
+      if (left + tipWidth > window.innerWidth - 8) left = window.innerWidth - tipWidth - 8;
+      tip.style.left = left + 'px';
+      tip.style.bottom = (window.innerHeight - rect.top + 6) + 'px';
+      tip.style.top = 'auto';
+      tip.classList.add('visible');
+    });
+    link.addEventListener('mouseleave', function() {
+      tip.classList.remove('visible');
+    });
   });
 })();
 

@@ -38,10 +38,6 @@
   float: right;
   line-height: 56px;
 
-  .menu-icon {
-    display: none;
-  }
-
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
@@ -50,44 +46,6 @@
     // Gaps between nav items, but not on the first one
     &:not(:first-child) {
       margin-left: 20px;
-    }
-  }
-
-  @include media-query($on-mobile) {
-    position: absolute;
-    top: 12px;
-    right: 24px;
-    z-index: 100;
-
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 4px;
-      text-align: center;
-      cursor: pointer;
-
-      background: #ffffff url($base-url + '/assets/img/menu.png') 6px 4px no-repeat;
-    }
-
-    .menu {
-      clear: both;
-      display: none;
-      background-color: #ffffff;
-      min-width: 10em;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      font-size: 16px;
-      display: block;
-      padding: 6px 16px;
     }
   }
 }
