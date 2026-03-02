@@ -890,6 +890,38 @@
   });
 })();
 
+// Figure hover tooltips
+(function() {
+  // Build a set of all figure IDs
+  var figIds = {};
+  document.querySelectorAll('figure[id]').forEach(function(fig) {
+    figIds[fig.id] = fig;
+  });
+
+  // Find all links that point to a figure
+  document.querySelectorAll('a[href^="#"]').forEach(function(link) {
+    var id = link.getAttribute('href').slice(1);
+    var fig = figIds[id];
+    if (!fig) return;
+
+    var img = fig.querySelector('img');
+    if (!img) return;
+
+    var tip = document.createElement('div');
+    tip.className = 'figure-tooltip';
+    var preview = document.createElement('img');
+    preview.src = img.src;
+    preview.alt = img.alt || '';
+    tip.appendChild(preview);
+
+    link.style.position = 'relative';
+    link.appendChild(tip);
+
+    link.addEventListener('mouseenter', function() { tip.classList.add('visible'); });
+    link.addEventListener('mouseleave', function() { tip.classList.remove('visible'); });
+  });
+})();
+
 // Citation hover tooltips
 (function() {
   document.querySelectorAll('span.citation a[href^="#ref-"]').forEach(function(link) {

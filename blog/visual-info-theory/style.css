@@ -449,6 +449,33 @@ blockquote {
   display: block;
 }
 
+/* Figure hover tooltip */
+.figure-tooltip {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 420px;
+  max-width: 90vw;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 100;
+}
+
+.figure-tooltip.visible {
+  display: block;
+}
+
+.figure-tooltip img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ============ Citation section ============ */
 #citation {
   border-top: 2px solid #ddd;
