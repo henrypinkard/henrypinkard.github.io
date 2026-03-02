@@ -16,6 +16,8 @@ header:
     - name: Research
 
 
+permalink: /blog/:title/
+
 # Build settings
 markdown: kramdown
 sass:
@@ -35,6 +37,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - scripts/
 
 # Used for defeating caching
 version: 1

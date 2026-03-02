@@ -68,12 +68,14 @@ sections:
 
       - title: A visual introduction to information theory
         image:
-          src: /assets/img/work/extended_noisy_channel.png
-          alt: Extended channel
+          src: /blog/visual-info-theory/figures/thumbnail.png
+          alt: Visual introduction to information theory
         authors: "Henry Pinkard, Laura Waller"
         venue: "2022"
         venue_url: https://doi.org/10.48550/arXiv.2206.07867
         links:
+          - text: website
+            url: /blog/visual-info-theory/
           - text: paper
             url: https://doi.org/10.48550/arXiv.2206.07867
           - text: code+figures
@@ -156,14 +158,18 @@ sections:
 
       - title: Designing lensless imaging systems to maximize information capture
         image:
-          src: /assets/img/work/lensinfo_highlight.png
+          src: /assets/img/work/lensless_info_design.png
           alt: Lensless info design
         authors: "Leyla A. Kabuli, Henry Pinkard, Eric Markley, Clara S. Hung, Laura Waller"
-        venue: "2025"
-        venue_url: https://arxiv.org/abs/2506.08513
+        venue: "Optica 2026"
+        venue_url: https://doi.org/10.1364/OPTICA.570334
         links:
+          - text: website
+            url: https://lakabuli.github.io/posts/lensless_information_theory.html
           - text: paper
-            url: https://arxiv.org/abs/2506.08513
+            url: https://doi.org/10.1364/OPTICA.570334
+          - text: code
+            url: https://github.com/lakabuli/LenslessInfoDesign
         description: 'Mutual information-based evaluation and design of lensless imaging systems, establishing principles for object-dependent imaging.'
 
       - title: Neural network-based dark-field differential phase contrast microscopy
@@ -190,7 +196,7 @@ sections:
 
       - title: Information-theoretic experimental analysis of lensless imagers
         image:
-          src: /assets/img/work/lensless_info_design.png
+          src: /assets/img/work/lensinfo_highlight.png
           alt: Lensless imager analysis
         authors: "Leyla A. Kabuli, Clara S. Hung, Eric Markley, Henry Pinkard, Laura Waller"
         venue: "Optica COSI 2024"

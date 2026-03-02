@@ -1,0 +1,32 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="work">
+  {% for post in site.posts %}
+    {% if post.external_url %}
+      {% assign post_url = post.external_url %}
+    {% else %}
+      {% assign post_url = post.url | absolute_url %}
+    {% endif %}
+    <a href="{{ post_url }}" style="text-decoration: none; color: inherit;">
+      <div class="work-item">
+        {% if post.image %}
+          <img
+            src="{{ post.image | absolute_url }}"
+            alt="{{ post.title }}"
+            class="work-bubble"
+          />
+        {% endif %}
+        <span class="work-text">
+          <strong style="font-size: 1.1em;">{{ post.title }}</strong>
+          {% if post.blurb %}
+            <br>
+            <span style="display: block; margin-top: 8px;">{{ post.blurb }}</span>
+          {% endif %}
+        </span>
+      </div>
+    </a>
+  {% endfor %}
+</div>
