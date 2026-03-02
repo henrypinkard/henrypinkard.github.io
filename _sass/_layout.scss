@@ -57,6 +57,7 @@
     position: absolute;
     top: 12px;
     right: 24px;
+    z-index: 100;
 
     border: 1px solid $grey-color-light;
     border-radius: 5px;
@@ -70,6 +71,7 @@
       line-height: 0;
       padding-top: 4px;
       text-align: center;
+      cursor: pointer;
 
       background: #ffffff url($base-url + '/assets/img/menu.png') 6px 4px no-repeat;
     }
