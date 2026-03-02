@@ -48,11 +48,17 @@ main h1 {
 
 /* ============ Page toolbar (Contents + Cite) ============ */
 #page-toolbar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1001;
   background: #f0f4f8;
   padding: 0.4rem 20px;
+}
+
+#page-toolbar-spacer {
+  height: 2.2rem;
 }
 
 #page-toolbar-inner {
