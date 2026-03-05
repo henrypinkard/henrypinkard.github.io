@@ -1,0 +1,29 @@
+/* ============ Website-specific overrides ============ */
+/* Appended by update-blog-posts.sh — do not edit in blog/ directly */
+
+/* Hide the Pandoc page toolbar (replaced by site nav bar) */
+#page-toolbar,
+#page-toolbar-spacer {
+  display: none;
+}
+
+/* TOC section number spacing */
+.toc-body .toc-section-number {
+  margin-right: 0.4em;
+}
+
+/* Reduced scroll-margin so fixed nav doesn't cover anchors too much */
+h1, h2, h3, h4, h5, h6 {
+  scroll-margin-top: 1rem;
+}
+
+#citation {
+  scroll-margin-top: 1rem;
+}
+
+/* Print: hide nav-bar TOC button */
+@media print {
+  #nav-toc-toggle {
+    display: none;
+  }
+}
