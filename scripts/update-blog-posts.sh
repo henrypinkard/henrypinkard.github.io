@@ -92,6 +92,9 @@ update_visual_info_theory() {
   # Copy entire built site
   cp -r "$SRC"/* "$DEST/"
 
+  # Copy website-only thumbnail
+  cp "$SCRIPT_DIR/visual-info-theory-thumbnail.png" "$DEST/figures/thumbnail.png"
+
   # Inject nav bar
   echo "  Injecting nav bar..."
   inject_nav "$DEST/index.html"
