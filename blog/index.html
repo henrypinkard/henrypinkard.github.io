@@ -10,16 +10,16 @@ title: Blog
     {% else %}
       {% assign post_url = post.url | absolute_url %}
     {% endif %}
-    <a href="{{ post_url }}" style="text-decoration: none; color: inherit;">
-      <div class="work-item">
+    <a href="{{ post_url }}" class="blog-card">
+      <div class="blog-item">
         {% if post.image %}
           <img
             src="{{ post.image | absolute_url }}"
             alt="{{ post.title }}"
-            class="work-bubble"
+            class="blog-bubble"
           />
         {% endif %}
-        <span class="work-text">
+        <span class="blog-text">
           <strong style="font-size: 1.1em;">{{ post.title }}</strong>
           {% if post.blurb %}
             <br>
