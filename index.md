@@ -48,6 +48,8 @@ sections:
         links:
           - text: paper
             url: https://doi.org/10.1038/s41592-025-02995-7
+          - text: pdf
+            url: /assets/pdf/missing-data-intelligent-instruments.pdf
         description: 'Outlines a path for AI to learn expert experimental skills from the rich digital traces that scientific instruments already generate.'
 
 
