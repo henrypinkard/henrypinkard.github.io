@@ -212,9 +212,11 @@ sections:
         authors: "Henry Pinkard, Laura Waller"
         venue: "Nature Methods 2022"
         venue_url: https://rdcu.be/cVdty
-        links: 
+        links:
           - text: paper
             url: https://rdcu.be/cVdty
+          - text: pdf
+            url: /assets/pdf/microscopes-coming-for-your-job.pdf
         description: 'Perspective on future possibilities for agentic AI and reinforcement learning in automated scientific discovery.'
 
       - title: Image denoising for fluorescence microscopy by supervised to self-supervised transfer learning
