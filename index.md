@@ -18,7 +18,7 @@ sections:
             url: https://romp-on.github.io/romp/
           - text: code
             url: https://github.com/romp-on/romp
-        description: "Open-source software for running many Claude Code agents at once. Tracks each agent's tasks, surfaces the ones needing a decision from you, and lets agents visibly coordinate and hand off work."
+        description: "Open-source software for running many Claude Code agents at once. Tracks each agent's tasks, surfaces the ones needing decisions, and lets them visibly coordinate and hand off work."
 
       - title: Information-driven design of imaging systems
         video:
