@@ -7,6 +7,19 @@ profile_picture:
 sections:
   - title: Research
     items:
+      - title: "Romp: a manager for AI coding agents"
+        video:
+          src: /assets/img/work/romp_ui.mp4
+          alt: Romp interface
+        authors: "Henry Pinkard"
+        venue: "2026"
+        links:
+          - text: documentation
+            url: https://romp-on.github.io/romp/
+          - text: code
+            url: https://github.com/romp-on/romp
+        description: "Open-source software for running many Claude Code agents at once. Tracks each agent's tasks, surfaces the ones needing a decision from you, and lets agents visibly coordinate and hand off work."
+
       - title: Information-driven design of imaging systems
         video:
           src: /assets/img/work/info_driven_design_video_abstract.mp4
@@ -356,10 +369,11 @@ sections:
 
 ---
 
-I'm research scientist with expertise information theory, AI evaluation, and open-source scientific software. I did my PhD and postdoc in the UC Berkeley <a href="https://eecs.berkeley.edu/">EECS</a> department and <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>, advised by <a href="http://www.laurawaller.com/">Laura Waller</a>.
+I'm a research scientist with expertise in information theory, AI evaluation, and open-source scientific software. I did my PhD and postdoc in the UC Berkeley <a href="https://eecs.berkeley.edu/">EECS</a> department and <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>, advised by <a href="http://www.laurawaller.com/">Laura Waller</a>.
 
 <p>My work includes:</p>
 <ul>
+<li><a href="#romp-a-manager-for-ai-coding-agents">Romp</a>, a manager for running many AI coding agents at once</li>
 <li>A technique to <a href="#information-driven-design-of-imaging-systems">design cameras and other sensors for AI</a> rather than for human vision</li>
 <li>The <a href="#arc-agi-2---a-new-challenge-for-frontier-ai-reasoning-systems">ARC-AGI-2 benchmark</a> for testing fluid intelligence in large language models</li>
 <li>A <a href="#the-berkeley-single-cell-computational-microscopy-bsccm-dataset">12-million-image biomedical dataset</a> to train computer vision algorithms</li>
