@@ -376,9 +376,7 @@ I'm a research scientist with expertise in information theory, AI evaluation, an
 <li><a href="#romp-a-manager-for-ai-coding-agents">Romp</a>, a manager for running many AI coding agents at once</li>
 <li>A technique to <a href="#information-driven-design-of-imaging-systems">design cameras and other sensors for AI</a> rather than for human vision</li>
 <li>The <a href="#arc-agi-2---a-new-challenge-for-frontier-ai-reasoning-systems">ARC-AGI-2 benchmark</a> for testing fluid intelligence in large language models</li>
-<li>A <a href="#the-berkeley-single-cell-computational-microscopy-bsccm-dataset">12-million-image biomedical dataset</a> to train computer vision algorithms</li>
 <li>The most widely adopted <a href="#pycro-manager-open-source-microscope-control-software">software for automating microscopes</a>, with applications ranging from cellular imaging to nanomaterials research</li>
-<li><a href="#learned-adaptive-multiphoton-illumination-microscopy">Neural network architectures</a> that incorporate physics knowledge to enable fast and low-cost scientific discovery</li>
 </ul>
 
 <p style="text-align: center">
