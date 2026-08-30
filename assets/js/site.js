@@ -100,3 +100,62 @@ $(document).ready(function() {
     $(this).html(html);
   });
 });
+
+/**
+ * Video modal: click a work-item animation to play it large
+ */
+$(document).ready(function() {
+  var bubbleVideos = document.querySelectorAll(".work-item video");
+  if (bubbleVideos.length === 0) return;
+
+  var overlay = document.createElement("div");
+  overlay.className = "video-modal-overlay";
+  overlay.innerHTML =
+    '<div class="video-modal">' +
+      '<button class="video-modal-close" aria-label="Close">&times;</button>' +
+      '<video controls loop playsinline></video>' +
+    '</div>';
+  document.body.appendChild(overlay);
+  var modalVideo = overlay.querySelector("video");
+
+  function openModal(bubble) {
+    var source = bubble.querySelector("source");
+    modalVideo.src = source ? source.src : bubble.currentSrc || bubble.src;
+    modalVideo.muted = false;
+    overlay.classList.add("open");
+    document.body.classList.add("video-modal-open");
+    bubble.pause();
+    modalVideo.play().catch(function() {
+      // Autoplay with sound blocked: retry muted so the modal still plays
+      modalVideo.muted = true;
+      modalVideo.play().catch(function() {});
+    });
+  }
+
+  function closeModal() {
+    overlay.classList.remove("open");
+    document.body.classList.remove("video-modal-open");
+    modalVideo.pause();
+    modalVideo.removeAttribute("src");
+    modalVideo.load();
+  }
+
+  bubbleVideos.forEach(function(v) {
+    v.addEventListener("click", function(e) {
+      e.preventDefault();
+      openModal(v);
+    });
+  });
+
+  overlay.addEventListener("click", function(e) {
+    if (e.target === overlay || e.target.classList.contains("video-modal-close")) {
+      closeModal();
+    }
+  });
+
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape" && overlay.classList.contains("open")) {
+      closeModal();
+    }
+  });
+});

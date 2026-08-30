@@ -73,3 +73,53 @@
 }
 
 /* Keep desktop layout for all screen sizes */
+/* Click-to-play video modal */
+.work-item video {
+  cursor: pointer;
+}
+
+.video-modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.82);
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.video-modal-overlay.open {
+  display: flex;
+}
+
+.video-modal {
+  position: relative;
+  width: 92vw;
+  max-width: 1100px;
+}
+
+.video-modal video {
+  display: block;
+  width: 100%;
+  max-height: 85vh;
+  border-radius: 8px;
+  background: #000;
+}
+
+.video-modal-close {
+  position: absolute;
+  top: -42px;
+  right: -6px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 34px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px;
+}
+
+body.video-modal-open {
+  overflow: hidden;
+}
