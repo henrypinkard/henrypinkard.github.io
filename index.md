@@ -368,7 +368,6 @@ I'm a research scientist with expertise in information theory, AI evaluation, an
 <p style="text-align: center">
 <a href="mailto:hbp@berkeley.edu">Email</a> &nbsp;/&nbsp;
 <a href="https://scholar.google.com/citations?user=-CpByXMAAAAJ&hl=en">Google scholar</a> &nbsp;/&nbsp;
-<a href="https://github.com/henrypinkard">GitHub</a> &nbsp;/&nbsp;
-<a href="https://bsky.app/profile/henrypinkard.bsky.social">Bluesky</a>
+<a href="https://github.com/henrypinkard">GitHub</a>
 </p>
 
