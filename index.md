@@ -25,19 +25,6 @@ sections:
             url: https://github.com/Waller-Lab/EncodingInformation
         description: 'A method to design imaging systems that capture maximum information for AI, free from human perceptual constraints. Applicable to diverse systems from consumer cameras to radio telescopes imaging black holes.'
 
-      - title: ARC-AGI-2 - A new challenge for frontier AI reasoning systems
-        image:
-          src: /assets/img/work/arc2.png
-          alt: ARC-AGI-2
-        authors: "François Chollet, Mike Knoop, Gregory Kamradt, Bryan Landers, Henry Pinkard"
-        venue: "2025"
-        links:
-          - text: website
-            url: https://arcprize.org/arc-agi/2/
-          - text: paper
-            url: https://arxiv.org/html/2505.11831v1
-        description: 'A benchmark for testing fluid intelligence and compositional reasoning in AI systems. Tests symbolic interpretation, multi-step reasoning, and contextual understanding beyond pattern matching.'
-
       - title: The missing data for intelligent scientific instruments
         video:
           src: /assets/img/work/intelligent_instruments_demo.mp4
@@ -361,8 +348,9 @@ I'm a research scientist with expertise in information theory, AI evaluation, an
 <p>My work includes:</p>
 <ul>
 <li>A technique to <a href="#information-driven-design-of-imaging-systems">design cameras and other sensors for AI</a> rather than for human vision</li>
-<li>The <a href="#arc-agi-2---a-new-challenge-for-frontier-ai-reasoning-systems">ARC-AGI-2 benchmark</a> for testing fluid intelligence in large language models</li>
+<li>A <a href="#the-berkeley-single-cell-computational-microscopy-bsccm-dataset">12-million-image biomedical dataset</a> to train computer vision algorithms</li>
 <li>The most widely adopted <a href="#pycro-manager-open-source-microscope-control-software">software for automating microscopes</a>, with applications ranging from cellular imaging to nanomaterials research</li>
+<li><a href="#learned-adaptive-multiphoton-illumination-microscopy">Neural network architectures</a> that incorporate physics knowledge to enable fast and low-cost scientific discovery</li>
 </ul>
 
 <p style="text-align: center">
