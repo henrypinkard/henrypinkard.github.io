@@ -343,7 +343,7 @@ sections:
 
 ---
 
-I'm a research scientist with expertise in information theory, AI evaluation, and open-source scientific software. I did my PhD and postdoc in the UC Berkeley <a href="https://eecs.berkeley.edu/">EECS</a> department and <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>, advised by <a href="http://www.laurawaller.com/">Laura Waller</a>.
+I'm a research scientist with expertise in information theory, applied AI, and open-source scientific software. I did my PhD and postdoc in the UC Berkeley <a href="https://eecs.berkeley.edu/">EECS</a> department and <a href="https://bair.berkeley.edu/">Berkeley AI Research Lab</a>, advised by <a href="http://www.laurawaller.com/">Laura Waller</a>.
 
 <p>My work includes:</p>
 <ul>
